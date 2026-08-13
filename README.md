@@ -65,7 +65,7 @@ This project demonstrates:
 
  ```
 
-##🚀 Technology Stack
+### 🚀 Technology Stack
 Category	Technology
 Language	Java
 Framework	Spring Boot
@@ -82,8 +82,8 @@ CI/CD	Jenkins
 Observability	Logging, Metrics & Monitoring
 Design	HLD, LLD & Design Patterns
 
-##🧩 Planned Microservices
-##🔐 Authentication Service
+### 🧩 Planned Microservices
+### 🔐 Authentication Service
 
 Responsible for:
 
@@ -93,7 +93,7 @@ JWT authentication
 Authorization
 Role-based access
 
-##✈️ Flight Search Service
+### ✈️ Flight Search Service
 
 Responsible for:
 
@@ -103,7 +103,7 @@ Schedule availability
 Search optimization
 Caching
 
-##📦 Inventory Service
+### 📦 Inventory Service
 
 Responsible for:
 
@@ -111,7 +111,8 @@ Seat inventory
 Seat availability
 Inventory updates
 Concurrency handling
-🎫 Booking Service
+
+### 🎫 Booking Service
 
 Responsible for:
 
@@ -119,7 +120,8 @@ Booking creation
 Booking confirmation
 Booking cancellation
 Booking lifecycle
-💳 Payment Service
+
+### 💳 Payment Service
 
 Responsible for:
 
@@ -129,7 +131,7 @@ Payment status
 Payment events
 
 
-##🔔 Notification Service
+### 🔔 Notification Service
 
 Responsible for:
 
@@ -138,7 +140,7 @@ Payment notifications
 Email/SMS integration concepts
 Event-driven notifications
 
-##🚪 API Gateway
+## #🚪 API Gateway
 
 Responsible for:
 
@@ -146,7 +148,8 @@ Request routing
 Authentication integration
 Rate limiting
 Centralized entry point
-🔄 Communication Model
+
+### 🔄 Communication Model
 
 The project will demonstrate both:
 
@@ -176,7 +179,7 @@ Asynchronous Communication
 
 Kafka will be used where asynchronous and event-driven communication provides better scalability and decoupling.
 
-##⚡ Caching
+### ⚡ Caching
 
 Redis will be used for suitable high-read and performance-sensitive use cases such as:
 
@@ -187,7 +190,7 @@ Distributed caching scenarios
 
 Cache strategies and trade-offs will be documented as the project evolves.
 
-##🔐 Security
+### 🔐 Security
 
 The project will progressively implement:
 
@@ -198,7 +201,7 @@ Secure service communication
 API security
 Secrets/configuration management
 
-##☸️ Deployment Journey
+### ☸️ Deployment Journey
 
 The application will progressively move through:
 ```text
@@ -215,7 +218,7 @@ The application will progressively move through:
           Monitoring & Observability
 ```
 
-##📚 Architecture Documentation
+### 📚 Architecture Documentation
 
 The repository will contain documentation for:
 
@@ -233,7 +236,7 @@ Reliability
 Observability
 Architecture trade-offs
 
-##🛠️ Development Roadmap
+### 🛠️ Development Roadmap
  Project architecture
  Repository structure
  Authentication Service
@@ -253,7 +256,7 @@ Architecture trade-offs
  HLD & LLD documentation
 
  
-##🎓 Learning Philosophy
+### 🎓 Learning Philosophy
 
 This project is not just about writing code.
 
@@ -269,14 +272,14 @@ What trade-offs it introduces.
 
 How the system behaves under scale and failure.
 
-##👨‍💻 Author
+### 👨‍💻 Author
 
-Kanhaya Lal
+### Kanhaya Lal
 
 Java Technical Architect | 12+ Years Experience | JavaA2Z Trainer
 
 Focused on:
 
-Java • Spring Boot • Microservices • Kafka • Redis • Kubernetes • AWS • System Design
+ Java • Spring Boot • Microservices • Kafka • Redis • Kubernetes • AWS • System Design
 
-⭐ If you find this project useful, feel free to explore the repository and follow the journey.
+### ⭐ If you find this project useful, feel free to explore the repository and follow the journey.
