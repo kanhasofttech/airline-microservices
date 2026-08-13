@@ -151,6 +151,7 @@ Centralized entry point
 The project will demonstrate both:
 
 Synchronous Communication
+```text
         Client
           ↓
         API Gateway
@@ -158,10 +159,11 @@ Synchronous Communication
         Booking Service
           ↓
         Flight / Inventory Service
-
+```
 Using REST APIs where immediate responses are required.
 
 Asynchronous Communication
+```text
         Booking Service
               ↓
             Kafka
@@ -170,6 +172,7 @@ Asynchronous Communication
          ▼                ▼
         Payment       Notification
         Service          Service
+```
 
 Kafka will be used where asynchronous and event-driven communication provides better scalability and decoupling.
 
@@ -198,7 +201,7 @@ Secrets/configuration management
 ##☸️ Deployment Journey
 
 The application will progressively move through:
-
+```text
           Local Development
                  ↓
           Spring Boot Applications
@@ -210,6 +213,7 @@ The application will progressively move through:
           AWS
                  ↓
           Monitoring & Observability
+```
 
 ##📚 Architecture Documentation
 
