@@ -176,13 +176,13 @@ Each microservice should own its business data.
 The system will evaluate SQL and NoSQL databases based on the requirements of each service.
 
 Example:
-
+```text
 Authentication Service → User Data
 Flight Service         → Flight Data
 Inventory Service      → Inventory Data
 Booking Service        → Booking Data
 Payment Service        → Payment Data
-
+```
 Services should avoid directly accessing another service's database.
 
 🔐 Security Architecture
