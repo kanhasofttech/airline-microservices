@@ -63,12 +63,9 @@ This project demonstrates:
           Payment       Notification      Other
            Service         Service       Consumers
 
+ ` ``` `
 
-
-
-
-
-🚀 Technology Stack
+##🚀 Technology Stack
 Category	Technology
 Language	Java
 Framework	Spring Boot
@@ -84,8 +81,9 @@ Cloud	AWS
 CI/CD	Jenkins
 Observability	Logging, Metrics & Monitoring
 Design	HLD, LLD & Design Patterns
-🧩 Planned Microservices
-🔐 Authentication Service
+
+##🧩 Planned Microservices
+##🔐 Authentication Service
 
 Responsible for:
 
@@ -94,7 +92,8 @@ Login
 JWT authentication
 Authorization
 Role-based access
-✈️ Flight Search Service
+
+##✈️ Flight Search Service
 
 Responsible for:
 
@@ -103,7 +102,8 @@ Route search
 Schedule availability
 Search optimization
 Caching
-📦 Inventory Service
+
+##📦 Inventory Service
 
 Responsible for:
 
@@ -127,7 +127,9 @@ Payment initiation
 Payment processing
 Payment status
 Payment events
-🔔 Notification Service
+
+
+##🔔 Notification Service
 
 Responsible for:
 
@@ -135,7 +137,8 @@ Booking notifications
 Payment notifications
 Email/SMS integration concepts
 Event-driven notifications
-🚪 API Gateway
+
+##🚪 API Gateway
 
 Responsible for:
 
@@ -170,7 +173,7 @@ Asynchronous Communication
 
 Kafka will be used where asynchronous and event-driven communication provides better scalability and decoupling.
 
-⚡ Caching
+##⚡ Caching
 
 Redis will be used for suitable high-read and performance-sensitive use cases such as:
 
@@ -181,7 +184,7 @@ Distributed caching scenarios
 
 Cache strategies and trade-offs will be documented as the project evolves.
 
-🔐 Security
+##🔐 Security
 
 The project will progressively implement:
 
@@ -191,7 +194,8 @@ Role-based authorization
 Secure service communication
 API security
 Secrets/configuration management
-☸️ Deployment Journey
+
+##☸️ Deployment Journey
 
 The application will progressively move through:
 
@@ -206,7 +210,8 @@ The application will progressively move through:
           AWS
                  ↓
           Monitoring & Observability
-📚 Architecture Documentation
+
+##📚 Architecture Documentation
 
 The repository will contain documentation for:
 
@@ -224,7 +229,7 @@ Reliability
 Observability
 Architecture trade-offs
 
-🛠️ Development Roadmap
+##🛠️ Development Roadmap
  Project architecture
  Repository structure
  Authentication Service
@@ -242,7 +247,9 @@ Architecture trade-offs
  CI/CD
  Monitoring & observability
  HLD & LLD documentation
-🎓 Learning Philosophy
+
+ 
+##🎓 Learning Philosophy
 
 This project is not just about writing code.
 
@@ -258,7 +265,7 @@ What trade-offs it introduces.
 
 How the system behaves under scale and failure.
 
-👨‍💻 Author
+##👨‍💻 Author
 
 Kanhaya Lal
 
